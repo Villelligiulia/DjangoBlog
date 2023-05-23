@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-villelligiulia-djangoblo-hyryqv992u.us2.codeanyapp.com',
-                 'my-django-blog-1.herokuapp.com', 'localhost']
+                 'codestar.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -90,6 +90,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
